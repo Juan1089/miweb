@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <title>Animales</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cajaTitulo">
+            <h2>Sonidos Animales</h2>
+        </div>
+        <div class="cajaEntrada">
+            <select id="listaAnimales"  class="menuDesplegable">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="mono">Mono</option>
+                <option value="grillo">Grillo</option>
+                <option value="vaca">Vaca</option>
+                <option value="elefante">Elefante</option>
+            </select>
+            <button id="boton" class="boton">Aceptar</button>
+        </div>
+        <div class="cajaSalida">
+            <img id="foto" class="imagen" src="Imagen/perro.jpg" alt="Foto Animal">
+            <div class="cajaPresentacion">
+                <h4 class="tituloPresentacion">Presentacion:</h4>
+                <p id="parrafo" class="parrafo">Hola soy un perro inteligente y quisiera ser tu mascota</p>
+                <audio id="audio" src="Audio/perro.mp3" controls></audio>
+            </div>
+        </div>
+    </div>
+<script src="Codigo/codigo.js"></script>
+</body>
+</html>
